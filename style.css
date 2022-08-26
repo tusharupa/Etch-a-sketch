@@ -1,9 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
-
 body{
     display: flex;
     justify-content: center;
@@ -11,42 +8,30 @@ body{
     flex-direction: column;
 }
 .navbar{
+    padding: 16px;
+    font-size: 32px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: large;
-    font-weight: 600;
-    padding: 16px;  
 }
 .tools
 {
     display: flex;
-    justify-content:flex-end;
-    align-items: center;
-    padding: 8px;
-    gap: 8px;
-    
-    height: 100px;
-}
-.buttons{
-    padding: 5px;
-    margin: 5px;
+    gap: 12px;
+    padding: 16px;
 }
 #container{
-border: 4px solid black;
-width: 600px;
-height: 600px;
-margin-top: 20px;
-display: grid;
-grid-template-columns: repeat(16,1fr);
-grid-template-rows: repeat(16,1fr);
-border-radius: 5px;
+    border: solid 6px black;
+    width: 600px;
+    height: 600px;
+    border-radius: 8px;
+    margin-top: 12px;
+    display:grid;
+    grid-template-columns: repeat(16,1fr);
+    grid-template-rows: repeat(16,1fr);
+    
 }
-.grid{
-    border: 1px solid black;
+.cell
+{
+    border: solid 1px black;
     background-color: white;
     
 }
-div.grid:hover{
-    background-color: gray;
-}
-
-

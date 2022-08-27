@@ -6,18 +6,33 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: bisque;
 }
 .navbar{
     padding: 16px;
     font-size: 32px;
     font-family: 'Times New Roman', Times, serif;
+    color:rgb(87, 5, 5);
+    font-style: italic;
+    font-weight: 600;
 }
 .tools
 {
     display: flex;
-    gap: 12px;
-    padding: 16px;
+    gap: 8px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
 }
+button{
+    padding: 6px;
+    font-size: 16px;
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(78, 21, 21);
+    font-weight: 600;
+}
+
 #container{
     border: solid 6px black;
     width: 600px;
@@ -32,6 +47,25 @@ body{
 .cell
 {
     border: solid 1px black;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    transition:0.2s;
     
+}
+
+.cell:hover{
+    background-color: rgb(0, 0, 0);
+    border: solid 2px rgb(238, 238, 238);
+}
+#colorpicker{
+    height: 30px;
+    width: 70px;
+}
+#colorchose{
+   font-size: 20px;
+   color: rgba(49, 2, 2, 0.829);
+   font-weight: 700;
+
+}
+h3{
+    color: rgb(80, 11, 11);
 }
